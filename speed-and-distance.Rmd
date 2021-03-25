@@ -4,7 +4,6 @@ author: "Alessandro Ciancetta"
 date: "18/3/2021"
 output: html_document
 ---
-cianceeeeeeeee
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -15,6 +14,10 @@ knitr::opts_chunk$set(echo = TRUE)
 Example of a simple Monte Carlo computation of the area of a unit circle following <https://www.youtube.com/watch?v=EaR3C4e600k>.
 
 Consider a **unit circle**. We can build a $2 \times 2$ square to envelope it. The Area of the circle is $\pi/4$. This can be approximated by sampling many points in the square and by computing the fraction of those points also laying within the circle.
+
+$$
+4x + 5^2
+$$
 
 ```{r cars}
 sampler <- function(N){
